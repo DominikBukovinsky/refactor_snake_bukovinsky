@@ -9,6 +9,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
+            //Main game loop
             GameState gameState = new GameState();
             
             while (true)
@@ -33,7 +34,7 @@ namespace Snake
         }
     }
 
-    public enum Direction
+    public enum Direction //A list of all possible directions 
     {
         Up,
         Down,
@@ -43,7 +44,8 @@ namespace Snake
     }
 
     public class GameState
-    {
+    {   
+        //Screen config
         private const int ScreenWidth = 32;
         private const int ScreenHeight = 16;
         
@@ -60,6 +62,7 @@ namespace Snake
             Console.WindowHeight = ScreenHeight;
             Console.WindowWidth = ScreenWidth;
             
+            //Creates a new snake in the starting position
             Snake = new Snake(
                 headX: ScreenWidth / 2,
                 headY: ScreenHeight / 2,
@@ -73,6 +76,7 @@ namespace Snake
             );
         }
 
+        //Checks if the head if colliding with the body of the snaek
         public bool IsGameOver()
         {
             var head = Snake.Head;
@@ -81,6 +85,7 @@ namespace Snake
                    Snake.IsHeadCollidingWithBody();
         }
 
+        //Rendering of borders on console
         public void DrawBorder()
         {
             Console.ForegroundColor = ConsoleColor.White;
@@ -112,6 +117,7 @@ namespace Snake
             }
         }
 
+        //Logic of spawning the head and body of the snake
         public void DrawSnake()
         {
             Console.ForegroundColor = ConsoleColor.Green;
@@ -202,6 +208,7 @@ namespace Snake
         }
     }
 
+    //Class that handles the movement, collision and updating of the snake's body
     public class Snake
     {
         public Pixel Head { get; }
@@ -261,6 +268,7 @@ namespace Snake
         }
     }
 
+    //Class that handles the logic of food (tiles that the snake eats)
     public class Food
     {
         private readonly Random _random;
@@ -278,6 +286,7 @@ namespace Snake
             Regenerate();
         }
 
+        //Randomly generates new food
         public void Regenerate()
         {
             XPos = _random.Next(1, _maxX);

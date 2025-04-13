@@ -12,3 +12,4 @@ C:\UTB\sem2\PO\refactor_snake_bukovinsky\SnakeRefactor\SnakeRefactor\obj\Debug\n
 C:\UTB\sem2\PO\refactor_snake_bukovinsky\SnakeRefactor\SnakeRefactor\obj\Debug\net9.0\SnakeRefactor.pdb
 C:\UTB\sem2\PO\refactor_snake_bukovinsky\SnakeRefactor\SnakeRefactor\obj\Debug\net9.0\SnakeRefactor.genruntimeconfig.cache
 C:\UTB\sem2\PO\refactor_snake_bukovinsky\SnakeRefactor\SnakeRefactor\obj\Debug\net9.0\ref\SnakeRefactor.dll
+C:\UTB\sem2\PO\refactor_snake_bukovinsky\SnakeRefactor\SnakeRefactor\obj\Debug\net9.0\SnakeRefactor.sourcelink.json

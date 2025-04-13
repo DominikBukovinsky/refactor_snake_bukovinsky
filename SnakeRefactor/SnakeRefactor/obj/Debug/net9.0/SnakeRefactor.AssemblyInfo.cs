@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SnakeRefactor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf009169304f37b39c4607381a29c5fe11d24078")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+622ef028b3537f94c4435f62cf885156c723deb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SnakeRefactor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SnakeRefactor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

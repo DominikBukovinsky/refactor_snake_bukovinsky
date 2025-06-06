@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UTB\\sem2\\PO\\refactor_snake_bukovinsky\\SnakeRefactor\\SnakeRefactor\\SnakeRefactor.csproj",
+      "projectUniqueName": "C:\\UTB\\refactor\\refactor_snake_bukovinsky\\SnakeRefactor\\SnakeRefactor\\SnakeRefactor.csproj",
       "projectName": "SnakeRefactor",
-      "projectPath": "C:\\UTB\\sem2\\PO\\refactor_snake_bukovinsky\\SnakeRefactor\\SnakeRefactor\\SnakeRefactor.csproj",
+      "projectPath": "C:\\UTB\\refactor\\refactor_snake_bukovinsky\\SnakeRefactor\\SnakeRefactor\\SnakeRefactor.csproj",
       "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-      "outputPath": "C:\\UTB\\sem2\\PO\\refactor_snake_bukovinsky\\SnakeRefactor\\SnakeRefactor\\obj\\",
+      "outputPath": "C:\\UTB\\refactor\\refactor_snake_bukovinsky\\SnakeRefactor\\SnakeRefactor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
